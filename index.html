@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta name = "description" content = "Descripcion de la pagina">
+	    <title>Se tiene 10?</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/animate.css">
+	    <link rel="stylesheet" href="css/main.css">
+	    <link rel="shortcut icon" href="favicon.ico">
+	    <script src="main.js"></script>
+    </head>
+    
+    <body class="container">
+      <div class="row text-center">
+       <div class="col-xs-6 col-xs-offset-3">
+        <h1 class="text-center text-primary">Se tiene 10?</h1>
+        <p class="text-justify">Dados 2 valores enteros, <b>a</b> y <b>b</b>, retorna 1 si uno de los numeros es 10 o si la suma de ambos numeros es 10.Caso contrario retorna 0.</p>
+        <h3 class="text-center text-primary">Tabla de resultados</h3>
+        
+        <table style="width:100%" class="table table-striped">
+          <tr>
+            <td><b>A</b></td>
+            <td><b>B</b></td> 
+            <td><b>Retorna</b></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>X</td> 
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td>10</td> 
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td>Y</td> 
+            <td>Si: X+Y=10, Retorna 1</td>
+          </tr>
+          <tr>
+            <td>Caso</td>
+            <td>Contrario</td> 
+            <td>0</td>
+          </tr>
+        </table>
+        
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4 class="text-primary text-center">Ingrese datos</h4>
+                <p class="text-center"><input type="text" id="a" placeholder="Ingrese el entero a" class="form-control"></p>
+                <p class="text-center"><input type="text" id="b" placeholder="Ingrese el entero b" class="form-control"></p>  
+                <br>
+                <p>Suma de ambos números: <span id="suma"></span></p>
+                <button class="btn btn-primary" onclick="diez()">Retorna</button>                         
+            </div>            
+        </div>   
+        <br>
+                                     
+        <div id = "resultado" class="text-center text-primary" style="font-size:30px;"></div>
+        <br>  
+        <br>
+        <br>  
+        <br> 
+        <div class="animated bounce infinite">
+            <a href="https://github.com/Madays/ejercicio6" style="font-size:30px;" target="_blank">Link del repositorio del trabajo</a>
+        </div>         
+       </div>      
+       </div>
+      </div>
+    </body>
+</html>    
